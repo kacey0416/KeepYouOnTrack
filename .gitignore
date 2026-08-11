@@ -20,7 +20,7 @@ build/
 
 # Playgrounds
 timeline.xctimeline
-playground.xcworkspace
+
 
 # Carthage
 Carthage/Build/
