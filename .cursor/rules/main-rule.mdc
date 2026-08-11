@@ -1,0 +1,42 @@
+---
+description: main rules
+alwaysApply: false
+---
+
+# Cursor AI Rules
+
+## Core Principles
+- Always prioritize clean code and high code quality.
+- Avoid duplicate, redundant, or conflicting code.
+- This is a side project:
+  - Avoid over-engineering.
+  - Avoid excessive abstraction or unnecessary modularization.
+- Keep the file structure simple and intuitive.
+- Prefer readability and maintainability over cleverness.
+- Always try to fix problems at the root cause, not the symptoms.
+- Write better code. Be better.
+
+## General Behavior
+- Make changes that improve the overall design and clarity of the codebase.
+- Keep files small, focused, and easy to understand.
+- Do not introduce complexity unless it clearly solves a real problem.
+- When adding new code, check if similar logic already exists and reuse or refactor instead of duplicating.
+
+## When an Error, Failure, or Unexpected Output Occurs
+1. Attempt only one fix at a time.
+2. Validate whether that fix actually resolved the issue.
+3. If it failed:
+   - Undo the fix.
+   - Reset and reassess.
+4. Reevaluate the problem using line-by-line reasoning.
+5. Repeat the above steps until the issue is resolved.
+
+## Engineering Mindset
+- Prefer simple solutions first, then scale only if needed.
+- Continuously question:
+  - "Is this too much for a side project?"
+  - "Is this abstraction actually useful?"
+- Optimize for:
+  - Long-term maintainability
+  - Developer experience
+  - Future readability by yourself

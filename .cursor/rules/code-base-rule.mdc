@@ -1,0 +1,10 @@
+---
+alwaysApply: true
+---
+
+# onChange
+'onChange(of:perform:)' was deprecated in iOS 17.0: Use `onChange` with a two or zero parameter action closure instead.
+use this instead.
+.onChange(of: playState) {
+            model.playStateDidChange(state: playState)
+        }
